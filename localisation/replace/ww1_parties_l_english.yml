@@ -1,13 +1,25 @@
 ﻿l_english:
  authoritarian:0 "Authoritarian"
- moderatism:0 "Moderatism"
- liberalism:0 "Liberalism"
- conservatism:0 "Conservatism"
- social_democracy:0 "Social Democracy"
- fascism:0 "Ultranationalism"
- moderatism_desc:0 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
- centrism:0 "Centrism"
- centrism_desc:0 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
+ authoritarian_noun:0 "Authoritarianism"
+ authoritarian_desc:0 "Authoritarian Regime"
+
+ liberalism:0 "Liberalistic"
+ liberalism_noun:0 "liberalism"
+ liberalism_desc:0 "Liberal Regime"
+
+ conservatism:0 "Conservative"
+ conservatism_noun:0 "Conservatism"
+ conservatism_desc:0 "Conservative Regime"
+
+ social_democracy:0 "Social Democratic"
+ social_democracy_noun:0 "Social Democracy"
+ social_democracy_desc:0 "Social Democratic Regime"
+
+ fascism:0 "Ultranational"
+ fascism_noun:0 "Ultranationalism"
+ fascism_desc:0 "Ultranational Regime"
+
+ monarchism:0 "Absolute Monarchy"
  
  GER_fascism_party:0 "Völkisch"
  GER_fascism_party_long:0 "Völkisch Movement"

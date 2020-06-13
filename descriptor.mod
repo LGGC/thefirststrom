@@ -8,6 +8,6 @@ tags={
 	"Map"
 	"Events"
 }
-name="Great War - ReMake"
+name="Great War - The First Storm"
 supported_version="1.9.3"
 replace_path="history/states"

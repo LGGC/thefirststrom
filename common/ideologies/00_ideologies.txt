@@ -3,7 +3,13 @@ ideologies = {
 	
 		types = {
 			
-			liberalism_sub = {
+			social_liberalism = {
+			}
+
+			market_liberalism = {
+			}
+
+			national_liberalism = {
 			}
 		}
 		
@@ -60,9 +66,14 @@ ideologies = {
 	
 		types = {
 			
-			conservatism_sub = {
+			liberal_conservatism = {
 			}
 
+			social_conservatism = {
+			}
+
+			national_conservatism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -121,7 +132,9 @@ ideologies = {
 			
 			social_democracy_sub = {
 			}
-			
+
+			democratic_socialism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -184,15 +197,6 @@ ideologies = {
 			marxism = {
 			}
 			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
 			anarchist_communism = {
 			}
 		}
@@ -244,12 +248,6 @@ ideologies = {
 			
 			fascism_ideology = {
 			}
-			
-			falangism = {
-			}
-			
-			rexism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -288,7 +286,14 @@ ideologies = {
 	authoritarian = {
 	
 		types = {
-			authoritarian_sub = {
+
+			military_dictatorship = {
+			}
+
+			autocracy = {
+			}
+
+			monarchism = {
 			}
 		}
 		

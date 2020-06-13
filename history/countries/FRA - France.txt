@@ -306,18 +306,19 @@ create_navy_leader={
 	}
 
 	set_politics = {
-	    ruling_party = democratic
+	    ruling_party = liberalism_sub
 	    last_election = "1910.4.30"
 	    election_frequency = 48
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 85
-	    fascism = 2
-	    communism = 12
-	    neutrality = 1
+		liberalism = 45
+		conservatism = 16
+		social_democracy = 32
+		fascism = 1
+		communism = 1
+		authoritarian = 5
 	}
-
 	add_ideas = {
 		FRA_ww1_Revanchism
 		ww1_Scramble_for_Africa
