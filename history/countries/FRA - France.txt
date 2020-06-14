@@ -5,7 +5,7 @@
 #-------------------------------------------------------
 set_fuel_ratio = 0.44
 set_research_slots = 4
-set_stability = 0.7
+set_stability = 0.62
 set_war_support = 0.80
 set_convoys = 300
 
@@ -302,7 +302,7 @@ create_navy_leader={
 	}
 
 	set_politics = {
-	    ruling_party = liberalism_sub
+	    ruling_party = social_liberalism
 	    last_election = "1910.4.30"
 	    election_frequency = 48
 	    elections_allowed = yes

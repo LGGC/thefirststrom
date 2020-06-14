@@ -18,7 +18,13 @@ add_namespace = { name = "unit_leader_sov" type = unit_leader }
 create_country_leader={ name = "Vladimir Lenin" desc=RUS_vladimir_ilyich_lenin_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_vladimir_ilyich_lenin.dds" expire="1935.1.1" ideology=leninism traits={  } }
 create_country_leader={ name = "Georgy Lvov" desc=RUS_georgy_lvov_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_georgy_lvov.dds" expire="1935.1.1" ideology=liberalism traits={  } }
 create_country_leader={ name = "Nikolay II" desc=RUS_nikolai_ii_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_2.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Nikolay II" desc=RUS_nikolai_ii_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_ii.dds" expire="1935.1.1" ideology=autocracy traits={  } }
+create_country_leader = {
+	name = "Nikolay II"
+	desc = RUS_nikolai_ii_DESC
+	picture = "gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_ii.dds"
+	ideology = monarchism
+	traits = {  }
+}
 create_country_leader={ name = "Nikolay II" desc=RUS_nikolai_ii_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_tsar_nikolai_ii.dds" expire="1935.1.1" ideology=fascism_ideology traits={  } }
 create_country_leader = {
 	name = "Aleksandr Kolchak" desc=WHR_aleksandr_kolchak_DESC picture="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds" expire="1935.1.1" ideology=fascism_ideology  traits={  }
@@ -228,16 +234,18 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
+	    ruling_party = authoritarian
 	    last_election = "1912.9.1"
 	    election_frequency = 60
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 10
-	    fascism = 5
-	    communism = 10
-	    neutrality = 75
+		liberalism = 15
+		conservatism = 5
+		social_democracy = 10
+		fascism = 5
+		communism = 25
+		authoritarian = 40
 	}
 
 	add_ideas = {

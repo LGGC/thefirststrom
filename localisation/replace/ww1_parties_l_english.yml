@@ -55,13 +55,45 @@
  AUH_liberalism_party:0 "Deutscher Nationalverband"
  AUH_conservatism_party:0 "German Conservative Party"
  
+ RUS_fascism_party:0 "SRN"
+ RUS_fascism_party_long:0 "Soyuz Russkogo Naroda"
+ RUS_communism_party:0 "RSDLP"
+ RUS_communism_party_long:0 "Rossiyskaya Sotsial-Demokraticheskaya Rabochaya Partiya"
+ RUS_social_democracy_party:0 "Mensheviks"
+ RUS_social_democracy_party_long:0 "Russian Social Democratic Labour Party"
+ RUS_authoritarian_party:0 "House of Romanov"
+ RUS_liberalism_party:0 "Oktyabristi"
+ RUS_conservatism_party:0 "Russian Assembly"
+
+ TUR_fascism_party:0 "CUP"
+ TUR_fascism_party_long:0 "Committee of Union and Progress"
+ TUR_communism_party:0 "OSF (R)"
+ TUR_communism_party_long:0 "Osmanlı Sosyalist Fırkası (Radicals)"
+ TUR_social_democracy_party:0 "OSF"
+ TUR_social_democracy_long:0 "Osmanlı Sosyalist Fırkası"
+ TUR_liberalism_party:0 "Liberal Entente"
+ TUR_liberalism_party_long:0 "Freedom and Accord Party"
+ TUR_conservatism_party:0 "CUP"
+ TUR_conservatism_party_long:0 "Committee of Union and Progress"
+ TUR_authoritarian_party:0 "CUP"
+ TUR_authoritarian_party_long:0 "Committee of Union and Progress"
+
+
+
+
  POL_neutrality_party:0 "Sanacja"
  POL_communism_party:0 "Komunistyczna Partia Polski"
  POL_democratic_party:0 "Związek Ludowo-Narodowy"
  POL_fascism_party:0 "Obóz Wielkiej Polski"
 
- ENG_communism_party:0 "Communist Unity Group"
- ENG_fascism_party:0 "British Empire Union"
+
+ ENG_fascism_party:0 "British Fascists"
+ ENG_communism_party:0 "BSP"
+ ENG_communism_party_long:0 "British Socialist Party"
+ ENG_social_democracy_party:0 "Labour Party"
+ ENG_authoritarian_party:0 "House of Saxe-Coburg and Gotha"
+ ENG_liberalism_party:0 "Liberal Party"
+ ENG_conservatism_party:0 "Conservative and Liberal Unionist"
  
  ITA_communism_party:0 "PSI (R)"
  ITA_communism_party_long:0 "Partito Socialista Italiano (Radicals)"
@@ -118,12 +150,7 @@
  BRA_democratic_party_long:0 "União Democrática Nacional"
  BRA_neutrality_party:0 "República Velha"
  BRA_neutrality_party_long:0 "República Velha"
- TUR_fascism_party:0 "Islamic Party"
- TUR_fascism_party_long:0 "Islamic Party"
- TUR_communism_party:0 "Sosyalist Firkasi"
- TUR_democratic_party:0 "Liberal Entente"
- TUR_neutrality_party:0 "CUP"
- TUR_neutrality_party_long:0 "Committee of Union and Progress"
+
  HUN_fascism_party:0 "Horthy goverment"
  SER_communism_party:0 "Komunisti"
  SER_democratic_party:0 "People's Radical Party"
