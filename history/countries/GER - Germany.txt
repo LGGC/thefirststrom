@@ -34,12 +34,12 @@ if = {
 #	ideology = monarchism 
 #	traits = {  } 
 #}
-#create_country_leader = {
-#	name = "Paul von Hindenburg"
-#	desc = GER_paul_von_hindenburg_DESC
-#	picture = "gfx/leaders/GER/GER_paul_von_hindenburg.dds"
-#	ideology = conservatism_sub
-#}
+create_country_leader = {
+	name = "Paul von Hindenburg"
+	desc = GER_paul_von_hindenburg_DESC
+	picture = "gfx/leaders/GER/GER_paul_von_hindenburg.dds"
+	ideology = national_conservatism
+}
 #create_country_leader = {
 #	name = "Adolf Hitler"
 #	desc = GER_adolf_hitler_DESC
@@ -52,12 +52,12 @@ create_country_leader = {
 	picture = "gfx/leaders/GER/GER_erich_ludendorff.dds"
 	ideology = fascism_ideology
 }
-#create_country_leader = {
-#	name = "Friedrich Ebert"
-#	desc = GER_friedrich_ebert_DESC
-#	picture = "gfx/leaders/GER/GER_friedrich_ebert.dds"
-#	ideology = liberalism_sub
-#}
+create_country_leader = {
+	name = "Friedrich Ebert"
+	desc = GER_friedrich_ebert_DESC
+	picture = "gfx/leaders/GER/GER_friedrich_ebert.dds"
+	ideology = national_liberalism
+}
 create_country_leader = {
 	name = "Karl Liebknecht"
 	desc = GER_karl_liebknecht_DESC
@@ -67,26 +67,9 @@ create_country_leader = {
 create_country_leader = { 
 	name = "Wilhelm II"
 	desc = GER_wilhelm_iii_DESC
-	picture = "gfx/leaders/GER/GER_wilhelm_ii.dds" 
+	picture = "gfx/hoi4tgw_portraits/GER/country_leaders/GER_wilhelm_ii.dds" 
 	expire = "1935.1.1" 
 	ideology = monarchism
-	traits = {  } 
-}
-
-create_country_leader = { 
-	name = "Wilhelm II"
-	desc = GER_wilhelm_iii_DESC
-	picture = "gfx/leaders/GER/GER_wilhelm_ii.dds" 
-	expire = "1935.1.1" 
-	ideology = national_liberalism
-	traits = {  } 
-}
-create_country_leader = { 
-	name = "Wilhelm II"
-	desc = GER_wilhelm_iii_DESC
-	picture = "gfx/leaders/GER/GER_wilhelm_ii.dds" 
-	expire = "1935.1.1" 
-	ideology = national_conservatism
 	traits = {  } 
 }
 
