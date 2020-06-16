@@ -25,7 +25,7 @@ create_country_leader={
 	desc=SER_peter_i_DESC
 	picture="gfx/hoi4tgw_portraits/SER/country_leaders/SER_peter_i.dds"
 	expire="1935.1.1"
-	ideology=conservatism
+	ideology=conservative_liberalism
 	traits={  }
 }
 create_country_leader={
@@ -161,16 +161,18 @@ create_corps_commander={
 	}
 
 	set_politics = {
-	    ruling_party = democratic
+	    ruling_party = liberalism
 	    last_election = "1908.5.31"
 	    election_frequency = 36
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 78
-	    fascism = 2
-	    communism = 8
-	    neutrality = 12
+		liberalism = 85
+		conservatism = 2
+		social_democracy = 1
+		fascism = 1
+		communism = 1
+		authoritarian = 10
 	}
 
 	add_ideas = {

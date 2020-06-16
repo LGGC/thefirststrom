@@ -12,12 +12,12 @@ set_convoys = 100
 #					POLITICS & ARMY
 #-------------------------------------------------------
 create_country_leader={ name = "Bernadino Machado" desc=POR_bernadino_machado_DESC picture="gfx/leaders/POR_bernadino_machado.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Sidónio Pais" desc=POR_sidonio_pais_DESC picture="gfx/leaders/POR_sidonio_pais.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Emanuel II" desc=POR_emanuel_ii_DESC picture="gfx/leaders/POR_emanuel_ii.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "João do Canto e Castro" desc=POR_joao_do_canto_e_castro_DESC picture="gfx/leaders/POR_joao_do_canto_e_castro.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Sidónio Pais" desc=POR_sidonio_pais_DESC picture="gfx/leaders/POR_sidonio_pais.dds" expire="1935.1.1" ideology=monarchism   traits={  } }
+create_country_leader={ name = "Emanuel II" desc=POR_emanuel_ii_DESC picture="gfx/leaders/POR_emanuel_ii.dds" expire="1935.1.1" ideology=monarchism   traits={  } }
+create_country_leader={ name = "João do Canto e Castro" desc=POR_joao_do_canto_e_castro_DESC picture="gfx/leaders/POR_joao_do_canto_e_castro.dds" expire="1935.1.1" ideology=monarchism   traits={  } }
 create_country_leader={ name = "António José de Almeida" desc=POR_antonio_jose_de_almeida_DESC picture="gfx/leaders/POR_antonio_jose_de_almeida.dds" expire="1935.1.1" ideology=conservatism traits={  } }
 create_country_leader={ name = "Teófilo Braga" desc=POR_teofilo_braga_DESC picture="gfx/leaders/POR_teofilo_braga.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Manuel II" desc=POR_manuel_ii_DESC picture="gfx/leaders/POR_manuel_ii.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Manuel II" desc=POR_manuel_ii_DESC picture="gfx/leaders/POR_manuel_ii.dds" expire="1935.1.1" ideology=monarchism   traits={  } }
 create_corps_commander={  name = "Alves Roçadas" id=70002 portrait_path="gfx/generals/POR_alves_rocadas.dds" traits={   } skill=1 }
 create_corps_commander={  name = "de Sousa Rosa" id=70003 portrait_path="gfx/generals/POR_de_sousa_rosa.dds" traits={   } skill=1 }
 create_corps_commander={  name = "Pereira d'Eça" id=70004 portrait_path="gfx/generals/POR_pereira_d_eca.dds" traits={   } skill=1 }
@@ -141,16 +141,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
+	    ruling_party = authoritarian
 	    last_election = "1908.4.5"
 	    election_frequency = 48
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 5
-	    fascism = 5
-	    communism = 4
-	    neutrality = 86
+		liberalism = 25
+		conservatism = 10
+		social_democracy = 10
+		fascism = 2
+		communism = 3
+		authoritarian = 50
 	}
 
 	add_ideas = {

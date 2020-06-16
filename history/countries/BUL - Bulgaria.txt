@@ -14,7 +14,7 @@ set_convoys = 5
 #-------------------------------------------------------
 create_country_leader={ name = "Aleksandar Stamboliyski" desc=BUL_aleksandar_stamboliyski_DESC picture="gfx/leaders/BUL_aleksandar_stamboliyski.dds" expire="1935.1.1" ideology=marxism traits={  } }
 create_country_leader={ name = "Dimitar Blagoev" desc=BUL_dimitar_blagoev_DESC picture="gfx/leaders/BUL_dimitar_blagoev.dds" expire="1935.1.1" ideology=stalinism traits={  } }
-create_country_leader={ name = "Ferdinand I" desc=BUL_ferdinand_i_DESC picture="gfx/leaders/BUL_ferdinand_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Ferdinand I" desc=BUL_ferdinand_i_DESC picture="gfx/leaders/BUL_ferdinand_i.dds" expire="1935.1.1" ideology=social_conservatism  traits={  } }
 
 #create_corps_commander={  name = "Dimitriev I." id=12014 portrait_path="gfx/generals/BUL_dimitriev_i.dds" traits={   } skill=1 }
 #create_corps_commander={  name = "Genev" id=12019 portrait_path="gfx/generals/BUL_genev.dds" traits={ winter_specialist commando } skill=2 }
@@ -169,16 +169,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
+	    ruling_party = conservatism
 	    last_election = "1907.12.22"
 	    election_frequency = 48
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 5
-	    fascism = 14
-	    communism = 1
-	    neutrality = 80
+		liberalism = 20
+		conservatism = 60
+		social_democracy = 2
+		fascism = 0
+		communism = 1
+		authoritarian = 17
 	}
 
 	add_ideas = {

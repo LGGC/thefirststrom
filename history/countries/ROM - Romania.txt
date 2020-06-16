@@ -14,7 +14,7 @@ set_convoys = 10
 #-------------------------------------------------------
 create_country_leader={ name = "Ferdinand I" desc=ROM_ferdinand_i_DESC picture="gfx/leaders/ROM_ferdinand_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 create_country_leader={ name = "Christian Rakovsky" desc=ROM_christian_rakovsky_DESC picture="gfx/leaders/ROM_christian_rakovsky.dds" expire="1935.1.1" ideology=stalinism traits={  } }
-create_country_leader={ name = "Carol I" desc=ROM_carol_i_DESC picture="gfx/leaders/ROM_carol_i.dds" expire="1935.1.1" ideology=conservatism traits={  } }
+create_country_leader={ name = "Carol I" desc=ROM_carol_i_DESC picture="gfx/leaders/ROM_carol_i.dds" expire="1935.1.1" ideology=national_conservatism traits={  } }
 
 #create_corps_commander={  name = "Barozzi" id=75040 portrait_path="gfx/generals/ROM_barozzi.dds" traits={ old_guard  } skill=2 }
 #create_corps_commander={  name = "Berindei" id=75044 portrait_path="gfx/generals/ROM_berindei.dds" traits={ old_guard  } skill=1 }
@@ -190,16 +190,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = democratic
+	    ruling_party = conservatism
 	    last_election = "1907.1.1"
 	    election_frequency = 48
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 85
-	    fascism = 3
-	    communism = 2
-	    neutrality = 10
+		liberalism = 35
+		conservatism = 50
+		social_democracy = 3
+		fascism = 1
+		communism = 1
+		authoritarian = 10
 	}
 
 	add_ideas = {

@@ -12,7 +12,13 @@ set_convoys = 10
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Nikola I" desc=MTN_nikola_i_DESC picture="gfx/leaders/MTN_nikola_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader = {
+	name = "Nikola I"
+	desc=MTN_nikola_i_DESC
+	picture="gfx/leaders/MTN_nikola_i.dds"
+	ideology=monarchism 
+	traits={  }
+}
 
 #create_corps_commander={  name = "Martinovic M." id=58002 portrait_path="gfx/generals/MTN_martinovic_m.dds" traits={   } skill=3 }
 #create_corps_commander={  name = "Gojnic" id=58004 portrait_path="gfx/generals/MTN_gojnic.dds" traits={   } skill=1 }
@@ -121,16 +127,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
+	    ruling_party = authoritarian
 	    last_election = "1907.10.31"
 	    election_frequency = 48
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 5
-	    fascism = 2
-	    communism = 1
-	    neutrality = 92
+		liberalism = 5
+		conservatism = 10
+		social_democracy = 0
+		fascism = 0
+		communism = 0
+		authoritarian = 85
 	}
 
 	add_ideas = {

@@ -6,10 +6,13 @@ ideologies = {
 			social_liberalism = {
 			}
 
-			market_liberalism = {
+			classic_liberalism = {
 			}
 
 			national_liberalism = {
+			}
+			
+			conservative_liberalism = {
 			}
 		}
 		

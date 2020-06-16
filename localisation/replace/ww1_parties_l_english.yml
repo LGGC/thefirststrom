@@ -78,14 +78,43 @@
  TUR_authoritarian_party:0 "CUP"
  TUR_authoritarian_party_long:0 "Committee of Union and Progress"
 
+ SPR_fascism_party:0 "JONS"
+ SPR_fascism_party_long:0 "Juntas de Ofensiva Nacional-Sindicalista"
+ SPR_communism_party:0 "PCE"
+ SPR_communism_party_long:0 "Partido Comunista de España"
+ SPR_conservatism_party:0 "PLC"
+ SPR_conservatism_party_long:0 "Partido Liberal-Conservador"
+ SPR_liberalism_party:0 "PL"
+ SPR_liberalism_party_long:0 "Partido Liberal"
+ SPR_social_democracy_party:0 "CRS"
+ SPR_social_democracy_long:0 "Conjunción Republicano–Socialista"
+ SPR_authoritarian_party:0 "CT"
+ SPR_authoritarian_party_long:0 "Comunión Tradicionalista"
 
+ SWI_fascism_party:0 "National Front"
+ SWI_communism_party:0 "Altkommunisten"
+ SWI_communism_party_long:0 "Kommunistische Partei der Schweiz"
+ SWI_conservatism_party:0 "CDP"
+ SWI_conservatism_party_long:0 "Christian Democratic People's Party of Switzerland"
+ SWI_liberalism_party:0 "FDP"
+ SWI_liberalism_party_long:0 "Free Democratic Party of Switzerland"
+ #SWI_authoritarian_party:0 ""
+ #SWI_authoritarian_party_long:0 ""
+ SWI_social_democracy_party:0 "PS"
+ SWI_social_democracy_long:0 "Social Democratic Party of Switzerland"
 
-
- POL_neutrality_party:0 "Sanacja"
- POL_communism_party:0 "Komunistyczna Partia Polski"
- POL_democratic_party:0 "Związek Ludowo-Narodowy"
- POL_fascism_party:0 "Obóz Wielkiej Polski"
-
+ POR_fascism_party_long:0 "Integralismo Lusitano"
+ POR_fascism_party:0 "IL"
+ POR_authoritarian_party_long:0 "Partido Regenerador"
+ POR_authoritarian_party:0 "PR"
+ POR_conservatism_party_long:0 "Partido Regenerador"
+ POR_conservatism_party:0 "PR"
+ POR_liberalism_party_long:0 "Partido Progressista"
+ POR_liberalism_party:0 "PP"
+ POR_social_democracy_party_long:0 "Partido Socialista Português"
+ POR_social_democracy_party:0 "PSP"
+ POR_communism_party_long:0 "Federação Maximalista Portuguesa"
+ POR_communism_party:0 "FMP"
 
  ENG_fascism_party:0 "British Fascists"
  ENG_communism_party:0 "BSP"
@@ -105,6 +134,74 @@
  ITA_fascism_party:0 "ANI"
  ITA_fascism_party:0 "Associazione Nazionalista Italiana"
 
+ SER_communism_party:0 "SSDP (R)"
+ SER_communism_party_long:0 "Srpska socijaldemokratska partija (Radicals)"
+ SER_social_democracy_party:0 "SSDP"
+ SER_social_democracy_party_long:0 "Srpska socijaldemokratska partija"
+ SER_liberalism_party:0 "NRS"
+ SER_liberalism_party_long:0 "Narodna radikalna stranka"
+ SER_conservatism_party:0 "Conservatives"
+ SER_fascism_party:0 "Ultranationalists"
+ SER_authoritarian_party:0 "House of Karađorđević"
+
+ MTN_authoritarian_party:0 "Prava Narodna Stranka"
+ MTN_conservatism_party:0 "Narodna Stranka"
+
+ BUL_authoritarian_party:0 "House of Saxe-Coburg and Gotha-Koháry"
+ BUL_conservatism_party:0 "DP"
+ BUL_conservatism_party:0 "Demokraticheska partia"
+ BUL_communism_party:0 "BKP"
+ BUL_communism_party_long:0 "Bëlgarska Komunističeska Partija"
+ BUL_social_democracy_party:0 "shiroki sotsialisti"
+ BUL_social_democracy_party_long:0 "Balgarska rabotnicheska sotsialdemokraticheska partia"
+ BUL_liberalism_party:0 "Narodna partiya"
+
+ ROM_authoritarian_party:0 "House Hohenzollern-Sigmaringen"
+ ROM_conservatism_party:0 "PC"
+ ROM_conservatism_party:0 "Partidul Conservator"
+ ROM_communism_party:0 "PSD (R)"
+ ROM_communism_party_long:0 "Partidul Social Democrat (Radicals)"
+ ROM_social_democracy_party:0 "PSD"
+ ROM_social_democracy_party_long:0 "Partidul Social Democrat"
+ ROM_liberalism_party:0 "PNL"
+ ROM_fascism_party:0 "PND"
+ ROM_fascism_party_long:0 "Partidul Naționalist-Democrat"
+
+ GRE_authoritarian_party:0 "House of Glücksburg"
+ GRE_conservatism_party:0 "Nationalist Party"
+ GRE_communism_party:0 "Communists"
+ GRE_social_democracy_party:0 "Soical Democrats"
+ GRE_liberalism_party:0 "Liberal Party"
+ GRE_fascism_party:0 "Ultranationalists"
+
+ DEN_authoritarian_party:0 "House of Schleswig-Holstein-Sonderburg-Glücksburg"
+ DEN_conservatism_party:0 "Højre"
+ DEN_communism_party:0 "Communists"
+ DEN_social_democracy_party:0 "Socialdemokraterne"
+ DEN_liberalism_party:0 "Venstre"
+ DEN_fascism_party:0 "Ultranationalists"
+
+ SWE_authoritarian_party:0 "House of Bernadotte"
+ SWE_conservatism_party:0 "Conservatives"
+ SWE_communism_party:0 "Communists"
+ SWE_social_democracy_party:0 "S/SAP"
+ SWE_social_democracy_party_long:0 "Sveriges socialdemokratiska arbetareparti"
+ SWE_liberalism_party:0 "Frisinnade Landsföreningen"
+ SWE_fascism_party:0 "Ultranationalists
+
+ NOR_authoritarian_party:0 "House of Bernadotte"
+ NOR_conservatism_party:0 "Conservatives"
+ NOR_communism_party:0 "Communists"
+ NOR_social_democracy_party:0 "S/SAP"
+ NOR_social_democracy_party_long:0 "Sveriges socialdemokratiska arbetareparti"
+ NOR_liberalism_party:0 "Frisinnade Landsföreningen"
+ NOR_fascism_party:0 "Ultranationalists
+
+
+
+
+
+
  USA_communism_party:0 "Communist Party"
  USA_fascism_party:0 "Ku Klux Klan"
 
@@ -114,6 +211,10 @@
  AUS_fascism_party:0 "DNSAP"
  AUS_neutrality_party:0 "Vaterländische Front"
 
+ POL_neutrality_party:0 "Sanacja"
+ POL_communism_party:0 "Komunistyczna Partia Polski"
+ POL_democratic_party:0 "Związek Ludowo-Narodowy"
+ POL_fascism_party:0 "Obóz Wielkiej Polski"
 
  CHI_fascism_party:0 "RNGROC"
  CHI_fascism_party_long:0 "Reorganized National Government of the Republic of China"
@@ -124,16 +225,10 @@
  SHX_neutrality_party_long:0 "Independent Shanxi"
 
 
- SPR_fascism_party:0 "Falange Española"
- SPR_democratic_party:0 "IR"
- SPR_democratic_party_long:0 "Izquierda Republicana"
- SPR_neutrality_party:0 "PRR"
- SPR_neutrality_party_long:0 "Partido Republicano Radical"
- POR_neutrality_party:0 "Partido Republicano Português"
- POR_democratic_party:0 "PD"
- POR_democratic_party_long:0 "Partido Democrático"
- GRE_neutrality_party:0 "Monarchists"
- GRE_neutrality_party_long:0 "Monarchists"
+
+ 
+
+
  LIT_neutrality_party_long:0 "Lietuviu tautininku sajunga"
  LAT_neutrality_party:0 "Tautas padome"
  FIN_neutrality_party:0 "Kesk"
@@ -152,11 +247,8 @@
  BRA_neutrality_party_long:0 "República Velha"
 
  HUN_fascism_party:0 "Horthy goverment"
- SER_communism_party:0 "Komunisti"
- SER_democratic_party:0 "People's Radical Party"
- SER_fascism_party:0 "Ultra Nationalists"
- BUL_democratic_party:0 "ULSDP"
- BUL_democratic_party_long:0 "United Labour Social Democratic Party"
+
+
  SAF_fascism_party:0 "HNP"
  SAF_fascism_party_long:0 "Herenigde Nasionale Party"
  HOL_neutrality_party:0 "ARP"
@@ -164,8 +256,7 @@
  HOL_democratic_party:0 "CHU"
  HOL_democratic_party_long:0 "Christelijk-Historische Unie"
  HOL_fascism_party_long:0 "Nationaal-Socialistische Beweging in Nederland"
- SWI_fascism_party:0 "NBS"
- SWI_fascism_party_long:0 "Nationale Bewegung der Schweiz"
+
  COS_communistm_party:0 "PVP"
  COS_communistm_party_long:0 "Partido Vanguardia Popular"
  VEN_neutral_party:0 "AD"

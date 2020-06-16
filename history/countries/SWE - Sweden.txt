@@ -13,7 +13,13 @@ set_convoys = 25
 #-------------------------------------------------------
 create_country_leader={ name = "Oscar II" desc=SWE_oscar_ii_DESC picture="gfx/leaders/SWE_oscar_ii.dds" expire="1935.1.1" ideology=conservatism traits={  } }
 create_country_leader={ name = "Zeth Höglund" desc=SWE_zeth_hoglund_DESC picture="gfx/leaders/SWE_zeth_hoglund.dds" expire="1935.1.1" ideology=stalinism traits={  } }
-create_country_leader={ name = "Gustaf V" desc=SWE_gustaf_v_DESC picture="gfx/leaders/SWE_gustaf_v.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader={
+	name = "Gustaf V"
+	desc=SWE_gustaf_v_DESC
+	picture="gfx/leaders/SWE_gustaf_v.dds"
+	ideology=classic_liberalism
+	traits={  }
+}
 create_corps_commander={  name = "von Matern" id=87002 portrait_path="gfx/generals/SWE_von_matern.dds" traits={ winter_specialist  } skill=2 }
 create_corps_commander={  name = "Fallenius" id=87003 portrait_path="gfx/generals/SWE_fallenius.dds" traits={   } skill=3 }
 create_corps_commander={  name = "Mörcke" id=87004 portrait_path="gfx/generals/SWE_morcke.dds" traits={   } skill=3 }
@@ -132,16 +138,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = democratic
+	    ruling_party = liberalism
 	    last_election = "1908.9.1"
 	    election_frequency = 36
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 75
-	    fascism = 3
-	    communism = 8
-	    neutrality = 14
+		liberalism = 80
+		conservatism = 0
+		social_democracy = 15
+		fascism = 0
+		communism = 0
+		authoritarian = 5
 	}
 
 	add_ideas = {

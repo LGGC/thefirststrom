@@ -494,12 +494,12 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 		elections_allowed = yes
 	}
 	set_popularities = {
-		liberalism = 26
-		conservatism = 21
+		liberalism = 21
+		conservatism = 11
 		social_democracy = 13
 		fascism = 5
 		communism = 5
-		authoritarian = 30
+		authoritarian = 45
 	}
 
 	add_ideas = {

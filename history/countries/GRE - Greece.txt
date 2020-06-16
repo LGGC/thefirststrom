@@ -13,7 +13,13 @@ set_convoys = 10
 #					POLITICS & ARMY
 #-------------------------------------------------------
 create_country_leader={ name = "Alexandros I" desc=GRE_alexandros_i_DESC picture="gfx/leaders/GRE_alexandros_i.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "George I" desc=GRE_george_i_DESC picture="gfx/leaders/GRE_george_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={
+	name = "George I"
+	desc=GRE_george_i_DESC
+	picture="gfx/leaders/GRE_george_i.dds"
+	ideology=national_liberalism
+	traits={  }
+}
 
 # Open Beta 0.7.3 #
 create_corps_commander={  name = "Panagiótis Danglís" id=35004 portrait_path="gfx/hoi4tgw_portraits/GRE/army_generals/GRE_panagiotis_danglis.dds" traits={ trait_engineer  } skill=3 }
@@ -134,16 +140,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
+	    ruling_party = liberalism
 	    last_election = "1906.5.31"
 	    election_frequency = 48
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 10
-	    fascism = 5
-	    communism = 2
-	    neutrality = 83
+		liberalism = 85
+		conservatism = 5
+		social_democracy = 0
+		fascism = 0
+		communism = 0
+		authoritarian = 10
 	}
 
 	add_ideas = {
