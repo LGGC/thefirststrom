@@ -12,7 +12,7 @@ set_convoys = 0
 #					POLITICS & ARMY
 #-------------------------------------------------------
 create_country_leader={ name = "Zauditu" desc=ETH_zauditu_DESC picture="gfx/leaders/ETH_zauditu.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Menelik II" desc=ETH_menelik_ii_DESC picture="gfx/leaders/ETH_menelik_ii.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Menelik II" desc=ETH_menelik_ii_DESC picture="gfx/leaders/ETH_menelik_ii.dds" expire="1935.1.1" ideology=monarchism  traits={  } }
 create_corps_commander={  name = "Baria-Gabr" id=30002 portrait_path="gfx/generals/ETH_baria_gabr.dds" traits={   } skill=2 }
 create_corps_commander={  name = "Menelik II" id=30012 portrait_path="gfx/generals/ETH_menelik_ii.dds" traits={   } skill=2 }
 create_corps_commander={  name = "Yohannes" id=30014 portrait_path="gfx/generals/ETH_yohannes.dds" traits={   } skill=2 }
@@ -22,16 +22,18 @@ create_corps_commander={  name = "Haimanot" id=30017 portrait_path="gfx/generals
 create_field_marshal={  name = "Nessibu" id=30004 portrait_path="gfx/fieldmarshal/ETH_nessibu.dds" traits={   } skill=2 }
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = authoritarian
     last_election = "1910.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 0
+   	liberalism = 0
+    conservatism = 0
+   	social_democracy = 0
     fascism = 0
     communism = 0
-    neutrality = 100
+    authoritarian = 100
 }
 
 1910.1.1 = {

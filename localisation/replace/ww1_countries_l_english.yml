@@ -224,18 +224,9 @@
  JAP_neutrality:0 "Japan"
  JAP_neutrality_DEF:0 "Japan"
 
- JBS_neutrality:0 "Jabal Shammar"
- JBS_democratic:0 "Jabal Shammar"
- JBS_fascism:0 "Jabal Shammar"
- JBS_communism:0 "Jabal Shammar"
- JBS_neutrality_DEF:0 "Jabal Shammar"
- JBS_democratic_DEF:0 "Jabal Shammar"
- JBS_fascism_DEF:0 "Jabal Shammar"
- JBS_communism_DEF:0 "Jabal Shammar"
- JBS_neutrality_ADJ:0 "Arabian"
- JBS_democratic_ADJ:0 "Arabian"
- JBS_fascism_ADJ:0 "Arabian"
- JBS_communism_ADJ:0 "Arabian"
+ JBS:0 "Jabal Shammar"
+ JBS_DEF:0 "Jabal Shammar"
+ JBS_ADJ:0 "Arabian"
  # ===================================================================================================
  # K
  KOR_fascism:0 "Korean Empire"
@@ -334,18 +325,15 @@
  PRU_neutrality_DEF:0 "Peru"
  # ===================================================================================================
  # Q
- QIN_democratic:0 "Republic of China"
- QIN_neutrality:0 "Qing Dynasty"
+ QIN:0 "Republic of China"
+ QIN_authoritarian:0 "Qing Dynasty"
  QIN_fascism:0 "Nationalist China"
  QIN_communism:0 "Communist China"
- QIN_democratic_DEF:0 "The Republic of China"
- QIN_neutrality_DEF:0 "The Qing Dynasty"
+ QIN_DEF:0 "The Republic of China"
+ QIN_authoritarian_DEF:0 "The Qing Dynasty"
  QIN_fascism_DEF:0 "Nationalist-Imperialist China"
  QIN_communism_DEF:0 "Communist China"
- QIN_democratic_ADJ:0 "Chinese"
- QIN_neutrality_ADJ:0 "Chinese"
- QIN_fascism_ADJ:0 "Chinese"
- QIN_communism_ADJ:0 "Chinese"
+ QIN_ADJ:0 "Chinese"
  # ===================================================================================================
  # R
  RUS_liberalism:0 "Russia"
@@ -382,12 +370,13 @@
  # ===================================================================================================
  # S
  SAU_fascism_DEF:0 "The Arabic Empire"
- SAU_democratic_DEF:0 "The Arabian Republic"
- SAU_neutrality:0 "Emirate of Nejd"
- SAU_neutrality_DEF:0 "Emirate of Nejd"
+ SAU_DEF:0 "The Arabian Republic"
+ SAU_authoritarian:0 "Emirate of Nejd"
+ SAU_authoritarian_DEF:0 "Emirate of Nejd"
  SAU_communism:0 "Arabian Socialist Republic"
  SAU_communism_DEF:0 "The Arabian Socialist Republic"
- SAU_neutrality_ADJ:0 "Arabian"
+ SAU_authoritarian_ADJ:0 "Arabian"
+
  SIA_fascism_DEF:0 "The Siamese Empire"
  SIA_democratic_DEF:0 "The Republic of Thailand"
  SIA_communism_DEF:0 "The Thai People's Republic"

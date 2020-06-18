@@ -20,7 +20,7 @@ create_country_leader = {
 	name = "Haakon VII"
 	desc=NOR_haakon_vii_DESC
 	picture="gfx/leaders/NOR_haakon_vii.dds"
-	ideology=conservative_liberalism
+	ideology=social_liberalism
 	traits={  }
 }
 
@@ -79,14 +79,14 @@ create_navy_leader={  name = "Sparre" id=62013 portrait_path="gfx/admiral/NOR_sp
 	}
 
 	set_politics = {
-	    ruling_party = conservatism
+	    ruling_party = liberalism
 	    last_election = "1909.10.25"
 	    election_frequency = 36
 	    elections_allowed = yes
 	}
 	set_popularities = {
-		liberalism = 30
-		conservatism = 40
+		liberalism = 40
+		conservatism = 30
 		social_democracy = 20
 		fascism = 0
 		communism = 2

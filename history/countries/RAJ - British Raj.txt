@@ -45,23 +45,26 @@ set_technology = {
 
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = authoritarian
     last_election = "1910.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 17
-    fascism = 2
-    communism = 1
-    neutrality = 80
+	liberalism = 8
+	conservatism = 7
+	social_democracy = 1
+	fascism = 2
+	communism = 2
+	authoritarian = 80
 }
+
 set_stability=0.45
 set_convoys=20
 
 
 1910.1.1 = {
-	create_country_leader={ name = "Earl of Minto" desc=RAJ_earl_of_minto_DESC picture="gfx/leaders/RAJ_earl_of_minto.dds" expire="1935.1.1" ideology=despotism traits={  } }
+	create_country_leader={ name = "Earl of Minto" desc=RAJ_earl_of_minto_DESC picture="gfx/leaders/RAJ_earl_of_minto.dds" expire="1935.1.1" ideology=monarchism traits={  } }
 }
 
 1914.1.1 = {

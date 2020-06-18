@@ -40,16 +40,18 @@ set_technology={
 	}
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = authoritarian
     last_election = "1910.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 0
+   	liberalism = 0
+    conservatism = 0
+   	social_democracy = 0
     fascism = 0
     communism = 0
-    neutrality = 100
+    authoritarian = 100
 }
 
 add_ideas={ limited_conscription }
@@ -137,9 +139,19 @@ add_ideas={ ww1_Faith_Allah }
 		tech_logistics_company=1
 		#KiS #tech_signal_company=1
 		} }
+
 create_country_leader={ name = "Abdullah bin Mitab" desc=JBS_abdullah_bin_mitab_DESC picture="gfx/leaders/JBS_abdullah_bin_mitab.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+
 create_country_leader={ name = "Mohammad bin Talal" desc=JBS_mohammad_bin_talal_DESC picture="gfx/leaders/JBS_mohammad_bin_talal.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Saud bin Abdul Aziz Rashid" desc=JBS_saud_bin_abdul_aziz_rashid_DESC picture="gfx/leaders/JBS_saud_bin_abdul_aziz_rashid.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+
+create_country_leader = {
+	name = "Saud bin Abdul Aziz Rashid"
+	desc=JBS_saud_bin_abdul_aziz_rashid_DESC
+	picture="gfx/leaders/JBS_saud_bin_abdul_aziz_rashid.dds"
+	ideology=monarchism 
+	traits={  }
+}
+
 create_corps_commander={  name = "Abdullah" id=48003 portrait_path="gfx/generals/JBS_abdullah.dds" traits={   } skill=1 }
 
 1936.1.1={ 

@@ -81,18 +81,20 @@ set_technology={
 	#tech_signal_company=1
 	}
 
-	set_politics = {
-	    ruling_party = neutrality
-	    last_election = "1910.1.1"
-	    election_frequency = 48
-	    elections_allowed = no
-	}
-	set_popularities = {
-	    democratic = 0
-	    fascism = 0
-	    communism = 0
-	    neutrality = 100
-	}
+set_politics = {
+    ruling_party = authoritarian
+    last_election = "1910.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+	liberalism = 0
+	conservatism = 0
+	social_democracy = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
+}
 
     set_stability=0.75
     set_convoys=20
@@ -176,7 +178,7 @@ set_technology={
 		#KiS #tech_signal_company=1
 		} }
 create_country_leader={ name = "Yeo Un-hyeong" desc=KOR_yeo_un_hyeong_DESC picture="gfx/leaders/KOR_yeo_un_hyeong.dds" expire="1935.1.1" ideology=marxism traits={  } }
-create_country_leader={ name = "Emperor Sunjong" desc=KOR_emperor_yunghui_DESC picture="gfx/leaders/KOR_emperor_yunghui.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Emperor Sunjong" desc=KOR_emperor_yunghui_DESC picture="gfx/leaders/KOR_emperor_yunghui.dds" expire="1935.1.1" ideology=monarchism  traits={  } }
 
 create_corps_commander={  name = "Min Shang Ho" id=49014 portrait_path="gfx/generals/KOR_min_shang_ho.dds" traits={ trait_engineer  } skill=2 }
 create_corps_commander={  name = "Shin Phal Gewn" id=49025 portrait_path="gfx/generals/KOR_shin_phal_gewn.dds" traits={   } skill=3 }

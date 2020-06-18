@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_authoritarian_group"
+		texturefile = "gfx//interface//ideologies//authoritarian_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_GER_monarchism"
+		texturefile = "gfx//interface//ideologies//GER_monarchism.dds"
+	}
+}

@@ -320,6 +320,26 @@ ideas = {
 			modifier={ stability_factor  = 0.10 }
 		}
 
+		GER_ww1_weltpolitik = {
+
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = { 
+				justify_war_goal_time = -0.25
+				conscription = 0.005
+				war_support_factor = 0.05
+			}
+		}
+
 		German_staff_ww1 = {
 					allowed = { always = yes }
 					allowed_civil_war = { always = yes }

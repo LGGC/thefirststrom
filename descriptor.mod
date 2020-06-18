@@ -11,3 +11,4 @@ tags={
 name="Great War - The First Storm"
 supported_version="1.9.3"
 replace_path="history/states"
+replace_path="common/ideas"

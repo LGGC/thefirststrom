@@ -49,7 +49,7 @@ if = {
 #					POLITICS & ARMY
 #-------------------------------------------------------
 create_country_leader = {
-	name = "Charles Jonnart"
+	name = "Aristide Briand"
 	desc = FRA_charles_jonnart_DESC
 	picture = "gfx/hoi4tgw_portraits/FRA/country_leaders/FRA_aristide_briand.dds"
 	ideology = social_liberalism 

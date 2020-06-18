@@ -504,12 +504,13 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 
 	add_ideas = {
 		#general_staff
-		German_staff_ww1
-		GER_ww1_North_German_Confederation
 		ww1_Scramble_for_Africa
+		GER_ww1_North_German_Confederation		
+		German_staff_ww1
 		limited_exports
 		limited_conscription
 		partial_economic_mobilisation
+		GER_ww1_weltpolitik
 	}
 	create_equipment_variant={ name="Sachsen Class" type=battleship_1890 name_group = GER_BB_HISTORICAL parent_version = 0 obsolete=yes upgrades={ ship_gun_upgrade=2 ship_armor_upgrade=0 ship_engine_upgrade=0 ship_reliability_upgrade=2           } }
 	create_equipment_variant={ name="Oldenburg Class" type=battleship_1890 name_group = GER_BB_HISTORICAL parent_version = 1 obsolete=yes upgrades={ ship_gun_upgrade=4 ship_armor_upgrade=1 ship_engine_upgrade=0 ship_reliability_upgrade=5           } }

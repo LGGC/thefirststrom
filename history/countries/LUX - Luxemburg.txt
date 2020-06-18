@@ -13,7 +13,13 @@ set_convoys = 0
 #-------------------------------------------------------
 create_country_leader={ name = "Marie-Adélaïde" desc=LUX_marie_adelaide_DESC picture="gfx/leaders/LUX_marie_adelaide.dds" expire="1935.1.1" ideology=liberalism traits={  } }
 create_country_leader={ name = "Aloys Kaiser" desc=LUX_aloys_kaiser_DESC picture="gfx/leaders/LUX_aloys_kaiser.dds" expire="1935.1.1" ideology=stalinism traits={  } }
-create_country_leader={ name = "William IV" desc=LUX_william_iv_DESC picture="gfx/leaders/LUX_william_iv.dds" expire="1935.1.1" ideology=conservatism traits={  } }
+create_country_leader = {
+	name = "William IV"
+	desc=LUX_william_iv_DESC
+	picture="gfx/leaders/LUX_william_iv.dds"
+	ideology=monarchism
+	traits={  }
+}
 
 
 1910.1.1 = {
@@ -79,16 +85,18 @@ create_country_leader={ name = "William IV" desc=LUX_william_iv_DESC picture="gf
 	}
 
 	set_politics = {
-	    ruling_party = democratic
+	    ruling_party = authoritarian
 	    last_election = "1909.12.23"
 	    election_frequency = 36
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 92
-	    fascism = 3
-	    communism = 5
-	    neutrality = 0
+		liberalism = 0
+		conservatism = 0
+		social_democracy = 0
+		fascism = 0
+		communism = 0
+		authoritarian = 100
 	}
 
 	add_ideas = {

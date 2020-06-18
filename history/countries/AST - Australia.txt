@@ -5,14 +5,20 @@
 #-------------------------------------------------------
 set_fuel_ratio = 0.20
 set_research_slots = 3
-set_stability = 0.75œ
+set_stability = 0.75
 set_convoys = 100
 
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Ronald Munro-Ferguson" desc=AST_ronald_munro_ferguson_DESC picture="gfx/leaders/AST_ronald_munro_ferguson.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "William Humble Ward" desc=AST_r_h_william_ward_DESC picture="gfx/leaders/AST_r_h_william_ward.dds" expire="1935.1.1" ideology=conservatism traits={  } }
+create_country_leader={ name = "Ronald Munro-Ferguson" desc=AST_ronald_munro_ferguson_DESC picture="gfx/leaders/AST_ronald_munro_ferguson.dds" expire="1935.1.1" ideology=social_liberalism traits={  } }
+create_country_leader = {
+	name = "William Humble Ward"
+	desc=AST_r_h_william_ward_DESC
+	picture="gfx/leaders/AST_r_h_william_ward.dds"
+	ideology=social_liberalism
+	traits={  }
+}
 create_corps_commander={  name = "Chauvel,H.G." id=5002 portrait_path="gfx/generals/AST_chauvel_hg.dds" traits={   } skill=2 }
 create_corps_commander={  name = "Elliott" id=5003 portrait_path="gfx/generals/AST_elliott.dds" traits={   } skill=4 }
 create_corps_commander={  name = "Talbot Hobbs,J.J." id=5004 portrait_path="gfx/generals/AST_talbot_hobbs_jj.dds" traits={   } skill=2 }
@@ -131,16 +137,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = democratic
-	    last_election = "1910.4.13"
-	    election_frequency = 36
+	    ruling_party = liberalism
+	    last_election = "1906.4.13"
+	    election_frequency = 48
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 96
-	    fascism = 1
-	    communism = 2
-	    neutrality = 1
+		liberalism = 45
+		conservatism = 2
+		social_democracy = 50
+		fascism = 1
+		communism = 2
+		authoritarian = 0
 	}
 
 	add_ideas = {

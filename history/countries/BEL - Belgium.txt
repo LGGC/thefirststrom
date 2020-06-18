@@ -12,7 +12,13 @@ set_convoys = 80
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={ name = "Albert I" desc=BEL_albert_i_DESC picture="gfx/hoi4tgw_portraits/BEL/country_leaders/BEL_King_Albert.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader = {
+	name = "Albert I"
+	desc = BEL_albert_i_DESC
+	picture = "gfx/hoi4tgw_portraits/BEL/country_leaders/BEL_King_Albert.dds"
+	ideology = national_conservatism
+	traits = {  }
+}
 
 create_field_marshal={
 	name = "Albert I" id=9009
@@ -150,16 +156,18 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = democratic
+	    ruling_party = conservatism
 	    last_election = "1908.5.24"
 	    election_frequency = 24
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 95
-	    fascism = 0
-	    communism = 5
-	    neutrality = 0
+		liberalism = 30
+		conservatism = 53
+		social_democracy = 15
+		fascism = 0
+		communism = 0
+		authoritarian = 2
 	}
 
 	add_ideas = {

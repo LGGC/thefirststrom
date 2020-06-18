@@ -38,16 +38,18 @@ set_technology={
 	}
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = authoritarian
     last_election = "1910.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 0
-    fascism = 0
-    communism = 0
-    neutrality = 100
+	liberalism = 0
+	conservatism = 0
+	social_democracy = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 set_stability=0.75
 add_ideas={ ww1_Faith_Allah }
@@ -134,7 +136,13 @@ set_convoys=10
 		} }
 
 
-create_country_leader={ name = "Ahmad Shah Qajar" desc=PER_ahmad_shah_qajar_DESC picture="gfx/leaders/PER_ahmad_shah_qajar.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={
+	name = "Ahmad Shah Qajar"
+	desc=PER_ahmad_shah_qajar_DESC
+	picture="gfx/leaders/PER_ahmad_shah_qajar.dds"
+	ideology=monarchism 
+	traits={  }
+}
 create_corps_commander={  name = "Salat ed-Dauleh" id=68002 portrait_path="gfx/generals/PER_salat_ed_dauleh.dds" traits={   } skill=2 }
 create_corps_commander={  name = "Azod Soltan Mirza" id=68003 portrait_path="gfx/generals/PER_azod_soltan_mirza.dds" traits={   } skill=2 }
 create_field_marshal={  name = "Malek Mansour Mirza" id=68004 portrait_path="gfx/fieldmarshal/PER_malek_mansour_mirza.dds" traits={   } skill=2 }

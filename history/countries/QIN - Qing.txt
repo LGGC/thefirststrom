@@ -24,7 +24,7 @@ create_country_leader={ name = "Puwei" desc=QIN_puwei_DESC picture="gfx/leaders/
 				}
 			}
 
-create_country_leader={ name = "Xuantong Emperor" desc=QIN_xuantong_emperor_DESC picture="gfx/leaders/QIN_xuantong_emperor.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Xuantong Emperor" desc=QIN_xuantong_emperor_DESC picture="gfx/leaders/QIN_xuantong_emperor.dds" expire="1935.1.1" ideology=monarchism  traits={  } }
 
 # Open Beta 0.7.3 #
 create_corps_commander={
@@ -175,17 +175,19 @@ set_technology = {
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
-	    last_election = "1910.1.1"
-	    election_frequency = 48
-	    elections_allowed = no
-	}
-	set_popularities = {
-	    democratic = 0
-	    fascism = 0
-	    communism = 0
-	    neutrality = 100
-	}
+    ruling_party = authoritarian
+    last_election = "1910.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+	liberalism = 0
+	conservatism = 0
+	social_democracy = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
+}
 
 	add_ideas = {
 

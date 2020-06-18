@@ -19,18 +19,19 @@ set_technology={
 	}
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = authoritarian
     last_election = "1910.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 0
-    fascism = 1
+   	liberalism = 0
+    conservatism = 0
+   	social_democracy = 0
+    fascism = 0
     communism = 0
-    neutrality = 99
+    authoritarian = 100
 }
-
 add_ideas={ limited_conscription }
 set_stability=0.75
 
@@ -105,7 +106,8 @@ set_convoys=5
 		tech_logistics_company=1
 		#KiS #tech_signal_company=1
 		} }
-create_country_leader={ name = "Abdul-Aziz ibn Abdul-Rahman al-Saud" desc=SAU_abdul_aziz_ibn_abdul_rahman_al_saud_DESC picture="gfx/leaders/SAU_abdul_aziz_ibn_abdul_rahman_al_saud.dds" expire="1935.1.1" ideology=despotism traits={  } }
+create_country_leader={ name = "Abdul-Aziz ibn Abdul-Rahman al-Saud" desc=SAU_abdul_aziz_ibn_abdul_rahman_al_saud_DESC picture="gfx/leaders/SAU_abdul_aziz_ibn_abdul_rahman_al_saud.dds" expire="1935.1.1" ideology=monarchism traits={  } }
+
 create_corps_commander={  name = "Abdul-Rahman bin Faisal" id=80002 portrait_path="gfx/generals/SAU_abdul_rahman_bin_faisal.dds" traits={   } skill=1 }
 
 1936.1.1={ 

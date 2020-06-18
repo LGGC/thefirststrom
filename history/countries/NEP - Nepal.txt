@@ -40,16 +40,18 @@ set_technology={
 	}
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = authoritarian
     last_election = "1910.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 0
-    fascism = 0
-    communism = 0
-    neutrality = 100
+	liberalism = 0
+	conservatism = 0
+	social_democracy = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 set_stability=0.75
@@ -137,7 +139,7 @@ set_stability=0.75
 		tech_logistics_company=1
 		#KiS #tech_signal_company=1
 		} }
-create_country_leader={ name = "Prithvi of Nepal" desc=NEP_prithvi_of_nepal_DESC picture="gfx/leaders/NEP_prithvi_of_nepal.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Prithvi of Nepal" desc=NEP_prithvi_of_nepal_DESC picture="gfx/leaders/NEP_prithvi_of_nepal.dds" expire="1935.1.1" ideology=monarchism  traits={  } }
 
 1936.1.1={ 
 capital=323

@@ -1,5 +1,13 @@
 ﻿capital=294
 oob="OMA_1910"
+create_country_leader = {
+	name = "Faisal bin Turki"
+	desc=OMA_faisal_bin_turki_DESC
+	picture="gfx/leaders/OMA_faisal_bin_turki.dds"
+	ideology=monarchism 
+	traits={  }
+}
+
 set_technology={ 
 	light_field_gun1=1
 	 
@@ -43,16 +51,18 @@ set_technology={
 	}
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = authoritarian
     last_election = "1910.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 0
-    fascism = 0
-    communism = 0
-    neutrality = 100
+	liberalism = 0
+	conservatism = 0
+	social_democracy = 0
+	fascism = 0
+	communism = 0
+	authoritarian = 100
 }
 
 set_stability=0.75
@@ -65,7 +75,8 @@ set_convoys=10
 	create_country_leader={ name = "Taimur bin Feisal" desc=OMA_taimur_bin_feisal_DESC picture="gfx/leaders/OMA_taimur_bin_feisal.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 	set_country_flag=faisal_dead
 	}
-1914.1.1 = { set_technology={ 
+1914.1.1 = {
+	set_technology={ 
 		#KiS #Scout1=1
 		#naval_bomber1=1
 
@@ -144,7 +155,6 @@ set_convoys=10
 		tech_logistics_company=1
 		#KiS #tech_signal_company=1
 		} }
-create_country_leader={ name = "Faisal bin Turki" desc=OMA_faisal_bin_turki_DESC picture="gfx/leaders/OMA_faisal_bin_turki.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 
 1936.1.1={ 
 capital=294
@@ -153,6 +163,12 @@ capital=294
 #set_technology={ infantry_weapons=1 }
 #
 set_convoys=10
-create_country_leader={ name="Said bin Taimur" desc="POLITICS_SAID_BIN_TAIMUR_DESC" picture="gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds" expire="1965.1.1" ideology=despotism traits={  } }
+create_country_leader = {
+	name="Said bin Taimur"
+	desc="POLITICS_SAID_BIN_TAIMUR_DESC"
+	picture="gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+	ideology=monarchism
+	traits={  }
+}
 
 }

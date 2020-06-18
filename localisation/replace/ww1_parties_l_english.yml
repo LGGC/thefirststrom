@@ -197,9 +197,23 @@
  NOR_liberalism_party:0 "Frisinnade Landsföreningen"
  NOR_fascism_party:0 "Ultranationalists
 
+ BEL_authoritarian_party:0 "House of Saxe-Coburg and Gotha"
+ BEL_conservatism_party:0 "Catholic Party"
+ BEL_communism_party:0 "Communists"
+ BEL_social_democracy_party:0 "Belgian Labour Party"
+ BEL_liberalism_party:0 "Liberal Party"
+ BEL_fascism_party:0 "Ultranationalists
 
-
-
+ HOL_authoritarian_party:0 "House of Orange-Nassau"
+ HOL_conservatism_party:0 "ARP"
+ HOL_conservatism_party_long:0 "Anti-Revolutionaire Partij"
+ HOL_communism_party:0 "CPN"
+ HOL_communism_party:0 "Communistische Partij Nederland"
+ HOL_social_democracy_party:0 "SDAP"
+ HOL_social_democracy_party:0 "Sociaal-Democratische Arbeiderspartij"
+ HOL_liberalism_party:0 "LU"
+ HOL_liberalism_party_long:0 "Liberale Unie"
+ HOL_fascism_party:0 "Ultranationalists
 
 
  USA_communism_party:0 "Communist Party"
