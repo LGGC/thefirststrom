@@ -78,7 +78,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 30 y = 990 }
+					position = { x = 30 y = 1300 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -102,7 +102,6 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-
 				instantTextBoxType = {
 					name = "hoi4tgw_infantry_year1"
 					position = { x = 133 y = 50 }
@@ -135,7 +134,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1914"
+					text = "1912"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -148,7 +147,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1916"
+					text = "1913"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -161,7 +160,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1918"
+					text = "1914"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -174,7 +173,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1919"
+					text = "1915"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -187,7 +186,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1921"
+					text = "1916"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -200,7 +199,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1924"
+					text = "1918"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -213,7 +212,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1927"
+					text = "1920"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -226,7 +225,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1930"
+					text = "1921"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -239,7 +238,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1936"
+					text = "1922"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -403,17 +402,17 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			
 			gridboxtype = {
 				name = "marines_tree"
-				position = { x = 140 y = 1075 }
+				position = { x = 140 y = 1500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "tech_mountaineers_tree"
-				position = { x = 140 y = 1180 }
+				position = { x = 140 y = 1400 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -495,7 +494,7 @@ guiTypes = {
 					position = { x = 370 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1914"
+					text = "1913"
 					maxWidth = 170
 					maxHeight = 32
 					format = left

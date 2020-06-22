@@ -21,6 +21,10 @@
  GER_ww1_North_German_Confederation:0 "North German Confederation Legacy"
  GER_ww1_North_German_Confederation_desc:0 "After years of being the secondary player in the German sphere, Prussia formed the North German Confederation, establishing itself as the foremost power in Germany, before finally unifying the empire. With this event still in living memory, the laws and pride of our people are still reflective of this monumental event."
  GER_ww1_weltpolitik:0 "Weltpolitik"
+ GER_ww1_weltpolitik_desc:0 "A total reversal of the defensive plan of Realpolitik devised by Otto von Bismarck, Weltpolitik is an imperialist doctrine centered on making Germany not just one Great Empire of several, but rather an Empire that none of the others could even hope to reach the heights of, and institute a ‘Pax Germanica’ to last one-thousand years."
+ GER_ww1_realpolitik:0 "Realpolitik"
+ GER_ww1_fan_prussain_militarism:0 "Prussian Militarism"
+ GER_ww1_national_debt:0 "Growing National Debt"
  #--------------------------------------------------------------
  ww1_Christmas_Truth_Repressed:0 "Christmas Truth Repressed"
  ww1_Christmas_Truth_Ignored:0 "Christmas Truth Ignored"

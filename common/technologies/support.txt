@@ -349,7 +349,9 @@ technologies = {
 			leads_to_tech = tech_recon2
 			research_cost_coeff = 1
 		}
-
+		dependencies = {
+			infantry_binoculars = 1
+		}
 		research_cost = 2
 		start_year = 1910
 		folder = {
@@ -359,6 +361,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -377,7 +380,6 @@ technologies = {
 			leads_to_tech = tech_recon3
 			research_cost_coeff = 1
 		}
-
 		research_cost = 1.5
 		start_year = 1914
 		folder = {
@@ -387,6 +389,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -411,7 +414,6 @@ technologies = {
 		recon = {
 			recon = 1
 		}
-		
 		path = {
 			leads_to_tech = tech_recon4
 			research_cost_coeff = 1
@@ -426,6 +428,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -449,7 +452,6 @@ technologies = {
 		recon = {
 			recon = 1.5
 		}
-		
 		path = {
 			leads_to_tech = tech_recon5
 			research_cost_coeff = 1
@@ -464,6 +466,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -476,7 +479,6 @@ technologies = {
 		recon = {
 			recon = 2
 		}
-		
 		path = {
 			leads_to_tech = tech_recon6
 			research_cost_coeff = 1
@@ -491,6 +493,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -518,6 +521,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -544,6 +548,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {
@@ -565,6 +570,7 @@ technologies = {
 		
 		categories = {
 			support_tech
+			infantry_weapons
 		}
 		
 		ai_will_do = {

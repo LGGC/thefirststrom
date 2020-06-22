@@ -43,8 +43,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/binoculars.dds"
 	}
 
-
-
+	SpriteType = {
+		name = "GFX_sidearm1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/sidearm1.dds"
+	}
+	SpriteType = {
+		name = "GFX_sidearm2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/sidearm2.dds"
+	}
+	SpriteType = {
+		name = "GFX_sidearm3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/sidearm3.dds"
+	}
 	SpriteType = {
 		name = "GFX_infantry_ww1_machinegun1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/light_machine_gun1.dds"
@@ -877,10 +887,16 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_infantry_grenade_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/grenade.dds"
+		texturefile = "gfx/interface/technologies/hoi4tgw/handgrenade1.dds"
 	}	
-
-
+	SpriteType = {
+		name = "GFX_infantry_grenade2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/handgrenade2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_grenade3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/handgrenade3.dds"
+	}
 	SpriteType = {
 		name = "GFX_infantry_flamethrower1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/flamethrower1.dds"

@@ -160,4 +160,20 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_support_diaz.dds"
 	}
 
+	SpriteType = {
+	name = "GFX_goal_continue_the_weltpolitik"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_goal_continue_the_weltpolitik.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_realpolitik_once_again"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_goal_realpolitik_once_again.dds"
+	}
+	SpriteType = {
+	name = "GFX_ww1_goal_german_war_mechine"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_goal_german_war_mechine.dds"
+	}
+	SpriteType = {
+	name = "GFX_ww1_goal_fan_prussain"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_goal_fan_prussain.dds"
+	}
 }
