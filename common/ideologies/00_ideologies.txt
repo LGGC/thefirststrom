@@ -286,7 +286,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	authoritarian = {
+	authoritarian = { #neutrality
 	
 		types = {
 

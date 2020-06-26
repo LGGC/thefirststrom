@@ -213,7 +213,11 @@ country_event = {
 		name = political.6.a
 		if = {
 			limit = {
-				has_government = democratic
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = social_democracy
+				}
 			}
 			start_civil_war = {
 				ruling_party = communism
@@ -233,11 +237,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = authoritarian
 			}
 			start_civil_war = {
 				ruling_party = communism
-				ideology = neutrality
+				ideology = authoritarian
 				size = 0.6
 			}
 		}
@@ -372,7 +376,11 @@ country_event = {
 		name = political.10.a
 		if = {
 			limit = {
-				has_government = democratic
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = social_democracy
+				}
 			}
 			if = {
 				limit = { fascism > 0.4 }
@@ -414,7 +422,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = authoritarian
 			}
 			if = {
 				limit = { fascism > 0.4 }
@@ -516,7 +524,13 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_government = democratic }
+		NOT = { 
+			OR = {
+				has_government = liberalism
+				has_government = conservatism
+				has_government = social_democracy
+			}
+		}
 	}
 
 	# Seek government support
@@ -547,7 +561,13 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = democratic_reformer
-		NOT = { has_government = democratic }
+		NOT = { 
+			OR = {
+				has_government = liberalism
+				has_government = conservatism
+				has_government = social_democracy
+			}
+		}
 		NOT = { has_country_flag = democracy_government_support }
 	}
 	
@@ -580,7 +600,13 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = democratic_reformer
-		NOT = { has_government = democratic }
+		NOT = { 
+			OR = {
+				has_government = liberalism
+				has_government = conservatism
+				has_government = social_democracy
+			}
+		}
 		NOT = { has_country_flag = democracy_opposition_formed }
 	}
 	
@@ -612,7 +638,13 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = democratic_reformer
-		NOT = { has_government = democratic }
+		NOT = { 
+			OR = {
+				has_government = liberalism
+				has_government = conservatism
+				has_government = social_democracy
+			}
+		}
 		has_country_flag = democracy_opposition_formed
 		NOT = { has_idea = democratic_opposition_voicing_protests }
 	}
@@ -640,7 +672,13 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = democratic_reformer
-		NOT = { has_government = democratic }
+		NOT = { 
+			OR = {
+				has_government = liberalism
+				has_government = conservatism
+				has_government = social_democracy
+			}
+		}
 		democratic > 0.5
 		has_country_flag = democracy_government_support
 		is_puppet = no
@@ -794,8 +832,18 @@ country_event = {
 	picture = GFX_report_event_journalists_speech
 
 	trigger = {
-		democratic > 0.5
-		NOT = { has_government = democratic }
+		OR = {
+			iberalism > 0.5
+			conservatism > 0.5
+			social_democracy > 0.5
+		}
+		NOT = { 
+			OR = {
+				has_government = liberalism
+				has_government = conservatism
+				has_government = social_democracy
+			}
+		}
 		NOT = { has_idea = democratic_revolutionaries }
 		NOT = { has_idea = reign_of_terror }
 		is_puppet = no
@@ -878,7 +926,11 @@ country_event = {
 		name = political.21.b
 		if = {
 			limit = {
-				has_government = democratic
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = social_democracy
+				}
 			}
 			start_civil_war = {
 				ruling_party = fascism
@@ -898,11 +950,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = authoritarian
 			}
 			start_civil_war = {
 				ruling_party = fascism
-				ideology = neutrality
+				ideology = authoritarian
 				size = 0.5
 			}
 		}
@@ -948,7 +1000,11 @@ country_event = {
 		name = political.22.b
 		if = {
 			limit = {
-				has_government = democratic
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = social_democracy
+				}
 			}
 			start_civil_war = {
 				ruling_party = communism
@@ -968,11 +1024,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = authoritarian
 			}
 			start_civil_war = {
 				ruling_party = communism
-				ideology = neutrality
+				ideology = authoritarian
 				size = 0.5
 			}
 		}
@@ -986,7 +1042,11 @@ country_event = {
 	picture = GFX_report_event_gathering_protest
 
 	trigger = {
-		democratic > 0.7
+		OR = {
+			liberalism > 0.7
+			conservatism > 0.7
+			social_democracy > 0.7
+		}
 		has_idea = democratic_revolutionaries
 		#Special case CHI PRC
 		OR = {
@@ -1018,11 +1078,11 @@ country_event = {
 		name = political.23.b
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = authoritarian
 			}
 			start_civil_war = {
 				ruling_party = democratic
-				ideology = neutrality
+				ideology = authoritarian
 				size = 0.5
 			}
 		}
