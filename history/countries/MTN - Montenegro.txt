@@ -15,7 +15,7 @@ set_convoys = 10
 create_country_leader = {
 	name = "Nikola I"
 	desc=MTN_nikola_i_DESC
-	picture="gfx/leaders/MTN_nikola_i.dds"
+	picture="gfx/hoi4tgw_portraits/MTN/country_leaders/MTN_nikola_i.dds"
 	ideology=monarchism 
 	traits={  }
 }

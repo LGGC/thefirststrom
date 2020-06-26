@@ -16,7 +16,7 @@ create_country_leader={ name = "Alexandros I" desc=GRE_alexandros_i_DESC picture
 create_country_leader={
 	name = "George I"
 	desc=GRE_george_i_DESC
-	picture="gfx/leaders/GRE_george_i.dds"
+	picture="gfx/hoi4tgw_portraits/GRE/country_leaders/GRE_george_i.dds"
 	ideology=national_liberalism
 	traits={  }
 }

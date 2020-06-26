@@ -19,7 +19,7 @@ create_country_leader={ name = "Pablo Iglesias" desc=SPR_pablo_iglesias_DESC pic
 create_country_leader = {
 	name = "Alfonso XIII"
 	desc = SPR_alfonso_xiii_DESC
-	picture = "gfx/leaders/SPR_alfonso_xiii.dds"
+	picture = "gfx/hoi4tgw_portraits/SPR/country_leaders/SPR_alfonso_xiii.dds"
 	ideology = social_liberalism 
 	traits = {  }
 }
